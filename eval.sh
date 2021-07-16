@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euxi
+set -eux
 
 fairseq-interactive data-bin \
     --buffer-size 1024 \
